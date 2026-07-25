@@ -15,11 +15,13 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch backend/videos.json",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "json-server": "^0.17.4",
+    "eslint": "8.52.0",
+    "json-server": "0.17.4",
     "prettier": "3.0.3"
   }
 }
